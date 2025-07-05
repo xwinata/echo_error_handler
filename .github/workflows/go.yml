@@ -25,4 +25,5 @@ jobs:
       with:
         profile: coverage.out
         threshold-total: 95
+        git-token: ${{ github.ref_name == 'main' && secrets.GITHUB_TOKEN || '' }}
         git-branch: badges 
