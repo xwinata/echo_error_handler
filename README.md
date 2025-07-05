@@ -1,4 +1,4 @@
-# Echo Error Handler Middleware
+# Echo Error Handler Middleware ![coverage](https://raw.githubusercontent.com/xwinata/echo_error_handler/badges/.badges/main/coverage.svg)
 
 A customizable error handler middleware for the Echo framework. This middleware intercepts errors returned by handlers and returns consistent JSON responses. It supports custom error types with their own status codes.
 
