@@ -8,6 +8,11 @@ A customizable error handler middleware for the Echo framework. This middleware 
 - Supports custom error types via `WithCustomError`
 - Returns JSON responses with appropriate status codes
 
+## Installation
+```bash
+go get github.com/xwinata/echo_error_handler
+```
+
 ## Usage
 ### Define your custom error structure that implement `customError` interface
 ```
@@ -35,7 +40,7 @@ type customError interface {
 ```
 import (
 	"github.com/labstack/echo/v4"
-	"github.com/xwinata/echoErrorHandler"
+	echoErrorHandler "github.com/xwinata/echo_error_handler"
 )
 
 func main() {
